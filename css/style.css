@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body {
+	background: yellow;
+}
+
+.head {
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1em;
+	font-size: 20px;
+	margin: 0 20px;
+}
+
+.block-1 {
+	background-image: url(../img/bg.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+h1 {
+	font-family:lemonada;
+	font-size: calc(1rem + 9vw);
+	line-height: calc(1rem + 8vw);
+	padding: calc(1rem + 0.4vw) 0;
+	color: #000;
+}
+
+.perfect {
+	font-family: Poiret One;
+	font-size: calc(1rem + 2.5vw);
+	line-height: calc(1rem + 3vw);
+	text-transform: uppercase;
+	white-space: nowrap;
+	margin-bottom: 5%;
+}
+
+.btn-1 {
+	background-color: #000;
+	color: yellow;
+	font-size: calc(1rem + 2vw);
+	margin-left: 10%;
+}
